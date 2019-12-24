@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
+int sum() {
+    printf("%d, %d, %d, %d, %d\n", 1, 2, 3, 4, 5);
+    return 6;
+}
+
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
